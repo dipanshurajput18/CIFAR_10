@@ -21,18 +21,18 @@ Truck
 ## Model Architecture
 The CNN model is constructed using TensorFlow and Keras:
 
-Input Layer: 32x32x3 RGB image
--Convolutional Layers:
--32 filters of size 3x3 with ReLU activation
-Max pooling with 2x2 window
-64 filters of size 3x3 with ReLU activation
-Max pooling with 2x2 window
-64 filters of size 3x3 with ReLU activation
-Fully Connected Layers:
-Dense layer with 64 units and ReLU activation
-Output layer with 10 units (corresponding to class labels)
-Training
-The model is trained with:
+### Input Layer: 32x32x3 RGB image
+### Convolutional Layers:
+### 32 filters of size 3x3 with ReLU activation
+### Max pooling with 2x2 window
+### 64 filters of size 3x3 with ReLU activation
+### Max pooling with 2x2 window
+### 64 filters of size 3x3 with ReLU activation
+### Fully Connected Layers:
+### Dense layer with 64 units and ReLU activation
+### Output layer with 10 units (corresponding to class labels)
+### Training
+### The model is trained with:
 
 -Optimizer: Adam
 -Loss function: Sparse Categorical Crossentropy
