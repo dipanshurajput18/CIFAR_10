@@ -34,17 +34,19 @@ Output layer with 10 units (corresponding to class labels)
 Training
 The model is trained with:
 
-Optimizer: Adam
-Loss function: Sparse Categorical Crossentropy
-Metrics: Accuracy
-Evaluation
-After training for 10 epochs, the model achieves a test accuracy of [insert your test accuracy here]% on unseen data.
+-Optimizer: Adam
+-Loss function: Sparse Categorical Crossentropy
+-Metrics: Accuracy
+-Evaluation: After training for 10 epochs, the model achieves a test accuracy of 70% on unseen data.
 
 ## Requirements
-TensorFlow
-NumPy
-Matplotlib
-PIL (Python Imaging Library)
+```TensorFlow
+-NumPy
+-Matplotlib
+-PIL (Python Imaging Library)
+-Opencv
+-Keras
+```
 ## Usage
 To predict the class of a new image, use the predict_image function defined in predict.py. Ensure the image is resized to 32x32 pixels and normalized before prediction.
 
