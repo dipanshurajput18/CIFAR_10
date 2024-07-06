@@ -32,12 +32,12 @@ The CNN model is constructed using TensorFlow and Keras:
 ### Dense layer with 64 units and ReLU activation
 ### Output layer with 10 units (corresponding to class labels)
 ### Training
-### The model is trained with:
+### -->The model is trained with:
 
-#### Optimizer: Adam
-#### Loss function: Sparse Categorical Crossentropy
-#### Metrics: Accuracy
-#### Evaluation: After training for 10 epochs, the model achieves a test accuracy of 70% on unseen data.
+#### ----Optimizer: Adam
+#### ----Loss function: Sparse Categorical Crossentropy
+#### ----Metrics: Accuracy
+#### ----Evaluation: After training for 10 epochs, the model achieves a test accuracy of 70% on unseen data.
 
 ## Requirements
 ```TensorFlow
