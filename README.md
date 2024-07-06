@@ -34,10 +34,10 @@ The CNN model is constructed using TensorFlow and Keras:
 ### Training
 ### The model is trained with:
 
--Optimizer: Adam
--Loss function: Sparse Categorical Crossentropy
--Metrics: Accuracy
--Evaluation: After training for 10 epochs, the model achieves a test accuracy of 70% on unseen data.
+#### Optimizer: Adam
+#### Loss function: Sparse Categorical Crossentropy
+#### Metrics: Accuracy
+#### Evaluation: After training for 10 epochs, the model achieves a test accuracy of 70% on unseen data.
 
 ## Requirements
 ```TensorFlow
