@@ -45,7 +45,7 @@ The CNN model is constructed using TensorFlow and Keras:
 
 
 Prediction::
-![Alt text](https://github.com/dipanshurajput18/CIFAR_10/blob/main/Outputs/13.png)
+![Alt text](https://github.com/dipanshurajput18/CIFAR_10/blob/main/Outputs/3.png)
 
 ## Requirements
 ```TensorFlow
