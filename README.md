@@ -21,6 +21,9 @@ Truck
 ## Model Architecture
 The CNN model is constructed using TensorFlow and Keras:
 
+![Alt text]()
+
+
 ### Input Layer: 32x32x3 RGB image
 ### Convolutional Layers:
 ### 32 filters of size 3x3 with ReLU activation
