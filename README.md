@@ -21,7 +21,7 @@ Truck
 ## Model Architecture
 The CNN model is constructed using TensorFlow and Keras:
 
-![Alt text]()
+![Alt text](https://github.com/dipanshurajput18/CIFAR_10/blob/main/Outputs/1.png)
 
 
 ### Input Layer: 32x32x3 RGB image
@@ -41,6 +41,11 @@ The CNN model is constructed using TensorFlow and Keras:
 #### ----Loss function: Sparse Categorical Crossentropy
 #### ----Metrics: Accuracy
 #### ----Evaluation: After training for 10 epochs, the model achieves a test accuracy of 70% on unseen data.
+![Alt text](https://github.com/dipanshurajput18/CIFAR_10/blob/main/Outputs/2.png)
+
+
+Prediction::
+![Alt text](https://github.com/dipanshurajput18/CIFAR_10/blob/main/Outputs/13.png)
 
 ## Requirements
 ```TensorFlow
